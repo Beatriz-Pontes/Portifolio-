@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio Bia </title>
+    <title>portfolio Bia </title>
     <script src="script.js" defer></script> <!-- Carregar a pagina por completo com a personalização e a execução rodar bonitnho :)-->
     <!-- GOOGLE FONTS -->       
     <link rel="preconnect" href="https://fonts.googleapis.com"><!--Muda a fonte-->
@@ -13,7 +13,7 @@
     <!-- BOOTSTRAP ICONS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <!-- FIM BOOTSTRAP ICONS-->
-    <Link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header> <!--Cabecalho-->       
@@ -23,7 +23,7 @@
                     <li> <a href="#topo-do-site" class="active">Inicio</a> </li>
                     <li> <a href="#especialidades"> Especialidades</a> </li>
                     <li> <a href="#sobre"> Sobre </a> </li>
-                    <li> <a href="#portifolio">Portifolio </a> </li>
+                    <li> <a href="#portfolio">portfolio </a> </li>
                 </ul>
             </nav>    
             <div  class="btn-contato"> <!--botão contato-->
@@ -35,7 +35,7 @@
                 <li> <a href="#topo-do-site" class="active">Inicio</a> </li>
                 <li> <a href="#especialidades"> Especialidades</a> </li>
                 <li> <a href="#sobre"> Sobre </a> </li>
-                <li> <a href="#portifolio">Portifolio </a> </li>
+                <li> <a href="#portfolio">portfolio </a> </li>
             </ul>
         </nav> 
     </header>
@@ -45,19 +45,128 @@
                 <div  class="flex"> 
                    <div class="txt-topo-site"> 
                     <h1> BUSCANDO SOLUÇÕES, DESEMPENHO MÁXIMO E PROBLEMAS MINIMOS <span>!</span> </h1> 
-                    <p> Bem-vindo ao meu portifolio! Aqui você encontrará as  minhas habilidades e experiências na area de ti. </p> 
+                    <p> Bem-vindo ao meu portfolio! Aqui você encontrará as  minhas habilidades e experiências na area de ti. </p> 
                    </div> 
                    <div  class="img-topo-site"> 
                     <img src="images/euzinha.png" alt="Imagem do topo  do site"> 
-
                    </div>
                 </div> 
-
             </div> 
-
-
         </section>
-
+        <section id ="especialidades" class="especialidades"> <!--seção especialidades-->
+            <div class="interface"> 
+                <h2 class="titulo"> MINHAS <span>ESPECIALIDADES</span></h2>
+                <div class="flex especialidades-flex"><!-- container flexivel-->
+                    <div class="especialidade-box">
+                        <i class="bi-bi-code-square"></i> <!-- nome do icone que representa minhas especialidades -->
+                        <h3>Manutenção de Computadores</h3>
+                        <p>Manutenção de computadore e instalação de sistemas operacionais, etc.</p>
+                    </div>    
+                    <div class="especialidade-box">
+                        <i class="bi-bi-pallete"></i> <!-- nome do icone que representa minhas especialidades -->
+                        <h3>Front-End</h3>
+                        <p> Desenvolvimento de interfaces de usuário, responsividade, etc.</p>
+                    </div> 
+                    <div class="especialidade-box">
+                        <i class="bi-bi-database"></i> <!-- nome do icone que representa minhas especialidades -->
+                        <h3>Banco de Dados</h3>
+                        <p> Manutenção e configuração de bancos de dados, etc.</p>
+                    </div> 
+                    </div>
+                </div> 
+            </div>
+        </section>
+        <section id="sobre" class="sobre">
+            <div class="interface"> 
+                <div class="flex sobre-flex">
+                    <div class="imagem-sobre"> 
+                        <img src="images/eu.jpeg"alt="Imagem do sobre">
+                    </div>
+                    <div class="txt-sobre">
+                        <h2>MUITO PRAZER, <span>EU SOU BEATRIZ.</span><i class="bi bi-balloon-heart"></i></h2>
+                        <p>  Eu sou uma pessoa comunicativa e sempre pronta para interagir de maneira gentil e simpática, com um sorriso que ilumina o ambiente. Possuo curiosidade e paixão por tecnologia e manutenção de equipamentos que me impulsionam a pesquisar e entender cada vez mais sobre esses temas, sempre busco aprimorar meus conhecimento, sou apaixonada por tecnologia e inovação. 
+                        <div class="btn-social">
+                            <a href="https://github.com/Beatriz-Pontes"><button><i class="bi bi-github"></i></button></a>
+                            <a href="https://www.linkedin.com/in/beatriz-brasil-a7b161330/"><button><i class="bi bi-linkedin"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+        </section>
+        <section id="testemunhos" class="testemunhos">
+            <div class="flex testemunhos-flex">
+                <div class="testemunho-card">
+                    <p>Beatriz é uma pessoa muito simpática e comunicativa, sempre pronta para ajudar e resolver problemas.</p>
+                    <h3>VSCode</h3>
+                </div>
+                <div class="testemunho-card"></div>
+                    <p> Beatriz é uma pessoa muito simpática e comunicativa, sempre pronta para ajudar e resolver 
+                    <h3>VSCode</h3>
+                </div>
+                <div class="testemunho-card"></div>
+                    <p>Beatriz é uma pessoa muito simpática e comunicativa, sempre pronta para ajudar e resolver problemas.</p>
+                    <h3>VSCode</h3>
+                </div>
+            </div>   
+        </section>
+        <section id="portfolio" class="portfolio">
+            <div class="interface">
+                <h2 class="titulo">MEU <span>PORTFÓLIO</span></h2>
+                <div class="flex portfolio-flex">
+                 <div class="img-port"  style="background-image: url('images/manutenção.png')"> 
+                    <div class="overlay"> <a href="https://www.youtube.com/watch?v=V-oPv3xPqP4"  target="_blank"> <button>Video alanzoka </button></a></div>
+                 </div>
+                 <div class="img-port"  style="background-image: url('images/Dev.png')"> 
+                    <div class="overlay"> <a href="https://www.youtube.com/watch?v=V-oPv3xPqP4"  target="_blank"> <button>Video alanzoka </button></a></div>
+                 </div> 
+                 <div class="img-port"  style="background-image: url('images/suporte\ .webp')"> 
+                    <div class="overlay"> <a href="https://www.youtube.com/watch?v=V-oPv3xPqP4"  target="_blank"> <button>Video alanzoka </button></a></div>
+                 </div>
+                </div>
+            </div>
+        </section>
+        <div id="contact-modal" class="modal hidden"> 
+            <span class="close-button" id="close-modal">&times;</span>
+            <h2>Entre em Contato</h2>
+            <form id="meu-formulario">
+                <input type="text" name="Nome"  placeholder="Nome" required>
+                <input type="e-mail" name="E-mail"  placeholder="E-mail" required>
+                <input type="tel" name="Telefone"  placeholder="Telefone" required>
+                <textarea name="Mensagem"  placeholder="Mensagem" required></textarea>
+                <div class="btn-enviar">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+            
+        </div>
     </main>
+    <footer>
+        <!-- Início do rodapé da página -->
+        <div class="interface">
+            <!-- Container centralizado -->
+            <div class="line-footer">
+                <!-- Linha de conteúdo no rodapé -->
+                <div class="flex">
+                    <!-- Container flexível -->
+                    <div class="btn-social">
+                        <!-- Container para os botões de redes sociais -->
+                        <a href="https://github.com/Beatriz-Pontes"><button><i class="bi bi-github"></i></button></a>
+                        <!-- Botão com ícone do GitHub que redireciona para o perfil -->
+                        <a href="https://www.linkedin.com/in/beatriz-brasil-a7b161330/"><button><i class="bi bi-linkedin"></i></button></a>
+                        <!-- Botão com ícone do LinkedIn que redireciona para o perfil -->
+                        <!--<a href=" "><button><i class="bi bi-whatsapp"></i></button></a>-->
+                        <!-- Botão com ícone do WhatsApp que redireciona para o contato -->
+                    </div>
+                </div>
+            </div>
+            <div class="line-footer borda">
+                <!-- Segunda linha de conteúdo no rodapé com borda superior -->
+                <p> <i class="bi bi-envelope-open-heart"></i> <a href="mailto:Beatrizbrasilpontes72@gmail.com">Beatrizbrasilpontes72@gmail.com</a></p>
+                <!-- Parágrafo com ícone de envelope e link para enviar email -->
+            </div>
+            <p>&copy; 2024 SoftInformatica. Todos os direitos reservados.</p>
+            <!-- Nota de direitos autorais -->
+        </div>
+    </footer>
 </body>
-</html> 
+</html>
